@@ -1,0 +1,32 @@
+.todo-item-container {
+  margin-top: 20px;
+  border: 1px solid rgb(233, 232, 232, 0.9);
+  width: 73%;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: end;
+}
+.check-box {
+  /* flex: 1; */
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.todo-title {
+  flex: 6;
+  font-size: 16px;
+}
+.todo-title-line-through {
+  flex: 6;
+  font-size: 16px;
+  text-decoration: line-through;
+}
+.delete-btn {
+  flex: 1;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  color: red;
+}

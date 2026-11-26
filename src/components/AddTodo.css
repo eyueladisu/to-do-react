@@ -1,0 +1,33 @@
+.input-feild {
+  padding: 12px 10px;
+  margin-right: 10px;
+  border: 1px solid rgb(233, 232, 232, 0.4);
+  border-radius: 8px;
+  width: 60%;
+  background-color: rgb(193, 190, 219, 0.2);
+  font-size: 15px;
+}
+.add-btn {
+  padding: 12px 30px;
+  background-color: blue;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+}
+.filter-bar {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.filter-btn {
+  border: none;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.filter-btn.active {
+  background-color: #1b2437;
+  color: white;
+}
